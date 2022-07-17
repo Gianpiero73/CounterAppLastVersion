@@ -60,7 +60,7 @@ h1 {
     height: 50px;
     color: white;
     font-size: 100px;
-    align-items: center;
+    text-align: center;
 }
 
 button {
