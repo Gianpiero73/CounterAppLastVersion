@@ -1,6 +1,6 @@
 # APP PROGETTO JAVASCRIPT BASICS
 
-# ecco il link diretto all'applicazione:
+# ecco il link diretto all'applicazione: https://counterappjs1.netlify.app/
 
 ![Schermata 2022-07-06 alle 17 10 55](https://user-images.githubusercontent.com/80164691/177583879-eda73a9a-3823-4ce8-b8fd-5e67e784ca9f.png)
 
