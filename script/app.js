@@ -16,11 +16,11 @@ $number.classList = ("numb");
 let value = 0;
 
 //btns
-const $plusButton = createButtonWithHandler('+', () => updateValue(Math.min(value + 1)));
+const $plusButton = createButton('+', () => updateValue(Math.min(value + 1)));
 $plusButton.classList = ("plus");
-const $minusButton = createButtonWithHandler('-', () => updateValue(Math.max(value - 1)));
+const $minusButton = createButton('-', () => updateValue(Math.max(value - 1)));
 $minusButton.classList = ("minus");
-const $resetButton = createButtonWithHandler("", () => updateValue(value = 0));
+const $resetButton = createButton("", () => updateValue(value = 0));
 $resetButton.classList = ("reset");
 
 
@@ -38,7 +38,7 @@ function createElement(tag, elemText) {
 
 
 //create Button
-function createButtonWithHandler(elemText, buttonHandler) {
+function createButton(elemText, buttonHandler) {
     let button = createElement('button', elemText);
     button.addEventListener('click', buttonHandler);
     return button;
