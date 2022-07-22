@@ -16,11 +16,11 @@ $number.classList = ("numb");
 let value = 0;
 
 //btns
-const $plusButton = createButtonWithHandler('+', () => updateLabelValue(Math.min(value + 1)));
+const $plusButton = createButtonWithHandler('+', () => updateValue(Math.min(value + 1)));
 $plusButton.classList = ("plus");
-const $minusButton = createButtonWithHandler('-', () => updateLabelValue(Math.max(value - 1)));
+const $minusButton = createButtonWithHandler('-', () => updateValue(Math.max(value - 1)));
 $minusButton.classList = ("minus");
-const $resetButton = createButtonWithHandler("", () => updateLabelValue(value = 0));
+const $resetButton = createButtonWithHandler("", () => updateValue(value = 0));
 $resetButton.classList = ("reset");
 
 
@@ -30,23 +30,23 @@ btn.appendChild($resetButton);
 btn.appendChild($minusButton);
 
 //create Element
-function createElement(tag, innerText) {
-    const element = document.createElement(tag);
-    element.innerText = innerText;
+function createElement(tag, elemText) {
+    let element = document.createElement(tag);
+    element.innerText = elemText;
     return element;
 }
 
 
 //create Button
-function createButtonWithHandler(innerText, clickHandler) {
-    const button = createElement('button', innerText);
-    button.addEventListener('click', clickHandler);
+function createButtonWithHandler(elemText, buttonHandler) {
+    let button = createElement('button', elemText);
+    button.addEventListener('click', buttonHandler);
     return button;
 
 }
 
 //update Value
-function updateLabelValue(newVal) {
+function updateValue(newVal) {
     value = newVal;
     $number.innerText = value;
 }
