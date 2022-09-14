@@ -2,7 +2,8 @@
 
 # ecco il link diretto all'applicazione: https://counterappjs1.netlify.app/
 
-![Schermata 2022-07-06 alle 17 10 55](https://user-images.githubusercontent.com/80164691/177583879-eda73a9a-3823-4ce8-b8fd-5e67e784ca9f.png)
+![Schermata 2022-09-14 alle 16 22 46](https://user-images.githubusercontent.com/80164691/190181241-5080701d-a067-4b71-a1c2-ed29c46bedcf.png)
+
 
 # DESCRIZIONE PROGETTO
 Questo progetto è una semplice app creata per mettere in pratica le competenze acquisite nello studio di Javascript Basics, una sezione del percorso di studi di start2impact.com per diventare Front End Developer. 
