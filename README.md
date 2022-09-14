@@ -9,7 +9,7 @@
 Questo progetto è una semplice app creata per mettere in pratica le competenze acquisite nello studio di Javascript Basics, una sezione del percorso di studi di start2impact.com per diventare Front End Developer. 
 
 L'app è un semplice counter in cui si può incrementare,decrementare o resettare il valore del "counter".
-L'applicazione è stata sviluppata grazie a tutti gli strumenti e le competenze acquisite nella fase di studio della Super Guida.
+L'applicazione è stata sviluppata grazie a tutti gli strumenti e le competenze acquisite nella fase di studio della Guida.
 
 Qui sotto riporto tutte le indicazioni che potranno essere utili.
  
